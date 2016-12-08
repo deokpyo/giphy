@@ -18,7 +18,7 @@ function renderButtons(){
 
 // function that runs the query with topic input given
 function runQuery(topic){
-var queryURL = "http://api.giphy.com/v1/gifs/search";
+var queryURL = "https://api.giphy.com/v1/gifs/search";
   // adds the parameters to the query URL
   queryURL += '?' + $.param({
       'q': topic,
