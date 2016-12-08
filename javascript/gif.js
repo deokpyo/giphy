@@ -22,8 +22,8 @@ var queryURL = "http://api.giphy.com/v1/gifs/search";
   // adds the parameters to the query URL
   queryURL += '?' + $.param({
       'q': topic,
-      'limit' : 10,
       'api_key': "dc6zaTOxFJmzC",
+      'limit' : 10,
   });
   $.get(queryURL, function(response) {
     var data = response.data;
